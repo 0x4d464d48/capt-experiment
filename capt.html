@@ -2,11 +2,11 @@
 <head>
 <script src="./test.js" type="text/javascript"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<script type="text/javascript"> console.log("HERE'S FOO"); console.log(window['foo]']);</script>
+<script type="text/javascript"> function test(response) {console.log(response)}</script>
 </head>
 <body>
 <div class="g-recaptcha"
      data-sitekey="6LfwoCcUAAAAAOWZyLyWMTizfuUGdICNismgziwF"
-     data-callback="handleResponse"></div>
+     data-callback="test"></div>
 </body>
 </html>
