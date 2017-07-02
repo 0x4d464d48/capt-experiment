@@ -2,7 +2,7 @@
 <head>
 <script src="./test.js" type="text/javascript"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<script type="text/javascript"> function test(response) {console.log(response)}</script>
+<script type="text/javascript">window['test'] = function test(response) {console.log(response)}; window['test']('I win')</script>
 </head>
 <body>
 <div class="g-recaptcha"
